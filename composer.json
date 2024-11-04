@@ -2,12 +2,6 @@
     "name": "ebeacon/strictvec",
     "description": "Strictly-typed Vector types for PHP.",
     "type": "library",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://bitbucket.org/ebeacon/iterutil.git"
-        }
-    ],
     "require-dev": {
         "vimeo/psalm": "^4.10",
         "phpunit/phpunit": "^8.5"
@@ -17,7 +11,7 @@
         "ext-ctype": "*",
         "ext-json": "*",
         "prewk/result": "^2.1",
-        "ebeacon/iterutil": "^0.5"
+        "ebeacon/iterutil": "^0.6"
     },
     "license": "MIT",
     "authors": [
